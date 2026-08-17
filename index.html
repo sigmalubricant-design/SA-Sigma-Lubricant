@@ -1,83 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SA Sigma Lubricant | Premium Engine Oil</title>
-<meta name="description" content="SA Sigma Lubricant - Premium engine oil for superior engine protection, mileage and performance.">
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#0f0f10;color:#fff;}
-header{background:#111;padding:20px;text-align:center;border-bottom:2px solid #c62828;}
-header h1{color:#ff3b3b;margin:0;}
-nav{margin-top:10px;}
-nav a{color:#fff;text-decoration:none;margin:0 12px;}
-.hero{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#111,#1c1c1c);}
-.hero h2{font-size:40px;margin-bottom:15px;}
-.hero p{color:#ddd;max-width:700px;margin:auto;}
-.btn{display:inline-block;margin-top:20px;padding:14px 28px;background:#c62828;color:#fff;text-decoration:none;border-radius:8px;font-weight:bold;}
-section{padding:50px 20px;max-width:1100px;margin:auto;}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-.card{background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:20px;text-align:center;}
-.card h3{color:#ff4d4d;}
-.features ul{line-height:2;color:#ddd;}
-.contact{background:#151515;border-top:2px solid #c62828;text-align:center;padding:40px 20px;}
-footer{background:#0a0a0a;color:#aaa;text-align:center;padding:20px;}
-</style>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SA Sigma Lubricant | Premium Bike & Scooter Engine Oil</title>
+
+  <meta name="description"
+        content="SA Sigma Lubricant offers quality engine oil for bikes and scooters. Available in 900ml and 1 litre packs. Smooth performance, reliable lubrication and everyday engine protection.">
+
+  <meta name="keywords"
+        content="SA Sigma Lubricant, Sigma Lubricant, Sigma engine oil, bike engine oil, scooter engine oil, motorcycle lubricant, 900ml engine oil, 1 litre engine oil">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical"
+        href="https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/">
+
+  <!-- Open Graph -->
+  <meta property="og:title"
+        content="SA Sigma Lubricant | Premium Bike & Scooter Engine Oil">
+
+  <meta property="og:description"
+        content="Quality engine oil for everyday bike and scooter use. Available in 900ml and 1 litre packs.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+        content="https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/">
+
+  <meta property="og:image"
+        content="https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/SA%20Sigma%20Lubricant.png">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #050505, #1b1b1b);
+      padding: 18px 5%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid #333;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e5e5e5;
+    }
+
+    .logo span {
+      color: #e00000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #ff3030;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 5%;
+      background:
+        radial-gradient(circle at center, #3a0000 0%, #120000 35%, #050505 75%);
+    }
+
+    .hero-content {
+      max-width: 1100px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 6vw, 70px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #e00000;
+    }
+
+    .hero p {
+      color: #d0d0d0;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #d90000;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background: #ff2020;
+    }
+
+    .product-image {
+      text-align: center;
+    }
+
+    .product-image img {
+      width: 100%;
+      max-width: 430px;
+      max-height: 520px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 35px rgba(255, 0, 0, 0.25));
+    }
+
+    section {
+      padding: 70px 5%;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+    }
+
+    .section-title span {
+      color: #e00000;
+    }
+
+    .about {
+      background: #111111;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      color: #cccccc;
+      font-size: 17px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .feature {
+      background: #171717;
+      padding: 28px 20px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #292929;
+    }
+
+    .feature h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #aaaaaa;
+      font-size: 14px;
+    }
+
+    .products {
+      background: #090909;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    .product-card {
+      background: linear-gradient(145deg, #191919, #0e0e0e);
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .product-card p {
+      color: #bbbbbb;
+    }
+
+    .contact {
+      text-align: center;
+      background: linear-gradient(135deg, #180000, #050505);
+    }
+
+    .contact p {
+      color: #cccccc;
+      margin-bottom: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #050505;
+      color: #888;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .features {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 50px 5%;
+      }
+    }
+  </style>
+
+  <!-- Google structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Brand",
+    "name": "SA Sigma Lubricant",
+    "url": "https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/",
+    "logo": "https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/SA%20Sigma%20Lubricant.png"
+  }
+  </script>
 </head>
+
 <body>
 
 <header>
-<h1>SA Sigma Lubricant</h1>
-<nav>
-<a href="#home">Home</a>
-<a href="#products">Products</a>
-<a href="#features">Why Choose Us</a>
-<a href="#contact">Contact</a>
-</nav>
+  <div class="nav">
+    <div class="logo">SA <span>SIGMA</span></div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
+<main>
+
 <section class="hero" id="home">
-<h2>Power Your Engine with SA Sigma Lubricant</h2>
-<p>Premium engine oil designed for superior protection, smooth performance, and longer engine life.</p>
-<a class="btn" href="https://wa.me/918521212177">Order on WhatsApp</a>
+  <div class="hero-content">
+
+    <div>
+      <h1>SA <span>Sigma</span> Lubricant</h1>
+
+      <p>
+        Premium engine oil for bikes and scooters.
+        Reliable lubrication, smooth performance and
+        everyday engine protection.
+      </p>
+
+      <a class="btn" href="#products">View Products</a>
+      <a class="btn" href="#contact">Contact Us</a>
+    </div>
+
+    <div class="product-image">
+      <img
+        src="SA%20Sigma%20Lubricant.png"
+        alt="SA Sigma Lubricant engine oil product"
+        loading="eager">
+    </div>
+
+  </div>
 </section>
 
-<section id="products">
-<h2>Our Products</h2>
-<div class="products">
-<div class="card">
-<h3>SA Sigma Lubricant 900ml</h3>
-<p>Ideal for daily riding and reliable engine protection.</p>
-</div>
-<div class="card">
-<h3>SA Sigma Lubricant 1 Litre</h3>
-<p>Enhanced lubrication for longer rides and better performance.</p>
-</div>
-</div>
+<section class="about" id="about">
+  <div class="container">
+
+    <h2 class="section-title">
+      About <span>SA Sigma Lubricant</span>
+    </h2>
+
+    <p>
+      SA Sigma Lubricant is designed for reliable lubrication
+      and smooth engine performance in everyday two-wheeler use.
+      Our focus is product consistency, quality and customer trust.
+    </p>
+
+  </div>
 </section>
 
-<section class="features" id="features">
-<h2>Why Choose SA Sigma Lubricant</h2>
-<ul>
-<li>Superior engine protection</li>
-<li>Better mileage support</li>
-<li>Reduced engine wear</li>
-<li>High thermal stability</li>
-<li>Smooth engine performance</li>
-<li>Long engine life</li>
-</ul>
+<section>
+  <div class="container">
+
+    <h2 class="section-title">
+      Why Choose <span>SA Sigma?</span>
+    </h2>
+
+    <div class="features">
+
+      <div class="feature">
+        <h3>Reliable Lubrication</h3>
+        <p>Designed for dependable everyday engine lubrication.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Smooth Performance</h3>
+        <p>Helps support smooth engine operation.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Engine Care</h3>
+        <p>Helps protect important engine components during regular use.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Two Pack Sizes</h3>
+        <p>Available in 900ml and 1 litre packs.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="container">
+
+    <h2 class="section-title">
+      Our <span>Products</span>
+    </h2>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img
+          src="SA%20Sigma%20Lubricant.png"
+          alt="SA Sigma Lubricant 900ml engine oil"
+          loading="lazy">
+
+        <h3>SA Sigma Lubricant 900ml</h3>
+
+        <p>
+          Quality engine oil for everyday bike and scooter use.
+        </p>
+      </div>
+
+      <div class="product-card">
+        <img
+          src="product.jpg"
+          alt="SA Sigma Lubricant engine oil product"
+          loading="lazy">
+
+        <h3>SA Sigma Lubricant 1 Litre</h3>
+
+        <p>
+          Reliable lubrication and smooth performance for
+          everyday two-wheeler use.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
 <section class="contact" id="contact">
-<h2>Become a Distributor</h2>
-<p>Join our distributor network and grow with a trusted lubricant brand.</p>
-<p><strong>Call / WhatsApp:</strong> +91 85212 12177</p>
-<a class="btn" href="https://wa.me/918521212177">Contact Now</a>
+  <div class="container">
+
+    <h2 class="section-title">
+      Contact <span>SA Sigma Lubricant</span>
+    </h2>
+
+    <p>
+      For product enquiries, dealership and distribution information,
+      please contact us.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/918521212177"
+       target="_blank">
+       WhatsApp Us
+    </a>
+
+  </div>
 </section>
 
+</main>
+
 <footer>
-© 2026 SA Sigma Lubricant. All Rights Reserved.
+  © 2026 SA Sigma Lubricant. All Rights Reserved.
 </footer>
 
 </body>
-  </html>
+</html>
