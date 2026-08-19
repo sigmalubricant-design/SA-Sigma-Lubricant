@@ -2,126 +2,190 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SA Sigma Lubricant | Premium Bike Engine Oil</title>
+<title>SA Sigma Lubricant | Premium Engine Oil</title>
 
 <meta name="description"
-content="SA Sigma Lubricant – Premium engine oil for bikes and scooters. Available in 900ml and 1 Litre packs.">
+content="SA Sigma Lubricant - Premium engine oil for bikes and scooters. Available in 900ml and 1 Litre packs.">
 
 <meta name="keywords"
-content="SA Sigma Lubricant, Sigma Lubricant, bike engine oil, scooter engine oil, 900ml engine oil, 1 litre engine oil">
+content="SA Sigma Lubricant, Sigma Lubricant, bike engine oil, scooter engine oil, engine oil 900ml, engine oil 1 litre">
 
 <style>
 
 *{
-    box-sizing:border-box;
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background:#0b0b0b;
-    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#080808;
+    color:white;
     line-height:1.6;
 }
 
+/* HEADER */
+
 header{
-    background:linear-gradient(135deg,#000,#8b0000,#111);
-    padding:25px 15px;
+    background:linear-gradient(135deg,#000000,#8b0000,#111111);
     text-align:center;
+    padding:25px 15px;
     border-bottom:3px solid #e00000;
 }
 
 header h1{
     font-size:34px;
-    color:#fff;
-    letter-spacing:1px;
+    font-weight:bold;
 }
 
 header p{
     color:#ddd;
     font-size:17px;
-    margin-top:5px;
 }
 
+/* HERO */
+
 .hero{
-    padding:35px 15px;
     text-align:center;
-    background:radial-gradient(circle,#5c0000,#050505 70%);
+    padding:35px 15px;
+    background:radial-gradient(circle at center,#650000,#080808 70%);
 }
 
 .hero h2{
-    font-size:32px;
     color:#ff3030;
+    font-size:32px;
     margin-bottom:10px;
 }
 
 .hero p{
-    color:#eee;
-    max-width:700px;
+    max-width:750px;
     margin:auto;
+    color:#eee;
     font-size:17px;
 }
 
-/* PRODUCT PHOTO */
+/* MAIN PHOTO */
 
-.product-photo{
+.main-photo{
     width:100%;
-    max-width:550px;
+    max-width:600px;
     margin:30px auto;
-    padding:12px;
-    background:linear-gradient(145deg,#222,#555,#111);
-    border:2px solid #aaa;
+    padding:10px;
+    background:#111;
+    border:2px solid #555;
     border-radius:20px;
-    box-shadow:0 0 35px rgba(255,0,0,.45);
+    box-shadow:0 0 35px rgba(255,0,0,.4);
 }
 
-.product-photo img{
+.main-photo img{
     width:100%;
     height:auto;
-    min-height:350px;
-    max-height:600px;
+    max-height:650px;
     object-fit:contain;
     display:block;
     border-radius:14px;
-    background:#111;
 }
 
+/* BUTTONS */
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:20px 0;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    padding:14px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.call{
+    background:#e00000;
+}
+
+/* SECTION */
+
 .section{
-    padding:40px 15px;
     max-width:1100px;
     margin:auto;
+    padding:45px 15px;
 }
 
 .section h2{
     text-align:center;
     color:#ff3030;
-    font-size:28px;
-    margin-bottom:25px;
+    font-size:29px;
+    margin-bottom:30px;
 }
+
+/* FEATURES */
 
 .features{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:18px;
+    gap:20px;
 }
 
 .card{
-    background:linear-gradient(145deg,#181818,#050505);
+    background:linear-gradient(145deg,#1c1c1c,#080808);
     border:1px solid #444;
-    border-radius:15px;
+    border-radius:16px;
     padding:25px 18px;
     text-align:center;
-    box-shadow:0 5px 20px rgba(0,0,0,.5);
 }
 
 .card h3{
     color:#ff3030;
-    margin-bottom:8px;
+    margin-bottom:10px;
 }
+
+/* PHOTO GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.gallery-box{
+    background:#111;
+    border:1px solid #555;
+    border-radius:18px;
+    padding:12px;
+    text-align:center;
+    box-shadow:0 5px 25px rgba(0,0,0,.5);
+}
+
+.gallery-box img{
+    width:100%;
+    height:450px;
+    object-fit:contain;
+    background:#050505;
+    border-radius:12px;
+    display:block;
+}
+
+.gallery-box h3{
+    color:#ff3030;
+    font-size:21px;
+    margin:15px 5px 5px;
+}
+
+/* PRODUCTS */
 
 .products{
     display:grid;
@@ -130,65 +194,49 @@ header p{
 }
 
 .product{
-    background:#151515;
-    border:1px solid #555;
+    background:#141414;
+    border:1px solid #444;
     border-radius:18px;
-    padding:18px;
+    padding:15px;
     text-align:center;
-}
-
-.product img{
-    width:100%;
-    height:380px;
-    object-fit:contain;
-    border-radius:12px;
-    background:#080808;
 }
 
 .product h3{
     color:#ff3030;
+    margin:15px 0 5px;
     font-size:23px;
-    margin-top:15px;
 }
 
-.buttons{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:12px;
-    margin-top:20px;
+/* CONTACT */
+
+.contact{
+    text-align:center;
+    background:linear-gradient(145deg,#1b1b1b,#070707);
+    border:1px solid #444;
+    border-radius:18px;
+    padding:30px 15px;
 }
 
-.btn{
-    display:inline-block;
-    padding:14px 24px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:16px;
+.contact p{
+    font-size:18px;
+    margin:8px;
 }
 
-.whatsapp{
-    background:#25D366;
-    color:#fff;
-}
-
-.call{
-    background:#e00000;
-    color:#fff;
-}
+/* FOOTER */
 
 footer{
-    background:#050505;
-    border-top:2px solid #8b0000;
     text-align:center;
+    background:#030303;
+    border-top:2px solid #8b0000;
     padding:30px 15px;
     color:#aaa;
 }
 
 footer strong{
-    color:#fff;
+    color:white;
 }
+
+/* MOBILE */
 
 @media(max-width:600px){
 
@@ -200,18 +248,16 @@ footer strong{
         font-size:26px;
     }
 
-    .product-photo{
-        max-width:95%;
-        padding:8px;
+    .main-photo{
+        max-width:96%;
     }
 
-    .product-photo img{
-        min-height:400px;
+    .main-photo img{
         max-height:550px;
     }
 
-    .product img{
-        height:400px;
+    .gallery-box img{
+        height:420px;
     }
 
 }
@@ -220,6 +266,9 @@ footer strong{
 </head>
 
 <body>
+
+
+<!-- HEADER -->
 
 <header>
 
@@ -230,43 +279,58 @@ footer strong{
 </header>
 
 
+<!-- HERO -->
+
 <section class="hero">
 
 <h2>Power • Protection • Performance</h2>
 
 <p>
-SA Sigma Lubricant is designed for smooth engine performance,
-reliable lubrication and everyday protection for bikes and scooters.
+SA Sigma Lubricant is designed for reliable lubrication,
+smooth engine performance and everyday protection for
+bikes and scooters.
 </p>
 
 
-<!-- LARGE MAIN PRODUCT PHOTO -->
+<!-- MAIN PRODUCT PHOTO -->
 
-<div class="product-photo">
+<div class="main-photo">
 
-<img src="SA%20Sigma%20Lubricant.png"
+<img
+src="SA%20Sigma%20Lubricant.png"
 alt="SA Sigma Lubricant Premium Engine Oil">
 
 </div>
 
 
+<!-- CONTACT BUTTONS -->
+
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/918521212177?text=Hello%20SA%20Sigma%20Lubricant%2C%20I%20want%20to%20know%20about%20your%20products."
 target="_blank">
-💬 WhatsApp Order
+
+💬 WhatsApp
+
 </a>
 
-<a class="btn call"
+
+<a
+class="btn call"
 href="tel:+918521212177">
+
 📞 Call Now
+
 </a>
 
 </div>
 
 </section>
 
+
+<!-- WHY CHOOSE -->
 
 <section class="section">
 
@@ -276,28 +340,78 @@ href="tel:+918521212177">
 
 <div class="card">
 <h3>🛡️ Engine Protection</h3>
-<p>Helps protect important engine components during everyday riding.</p>
+<p>
+Helps protect important engine components during everyday riding.
+</p>
 </div>
 
 <div class="card">
 <h3>⚙️ Smooth Performance</h3>
-<p>Designed for smooth and reliable engine operation.</p>
+<p>
+Designed for smooth and reliable engine operation.
+</p>
 </div>
 
 <div class="card">
-<h3>🏍️ Two-Wheeler Use</h3>
-<p>Suitable for everyday bike and scooter applications.</p>
+<h3>🏍️ Two-Wheeler</h3>
+<p>
+Suitable for everyday bike and scooter applications.
+</p>
 </div>
 
 <div class="card">
 <h3>⭐ Reliable Quality</h3>
-<p>Focused on consistent lubrication and dependable performance.</p>
+<p>
+Focused on consistent lubrication and dependable performance.
+</p>
 </div>
 
 </div>
 
 </section>
 
+
+<!-- ALL PHOTOS -->
+
+<section class="section">
+
+<h2>SA Sigma Lubricant Gallery</h2>
+
+<div class="gallery">
+
+
+<!-- PHOTO 1 -->
+
+<div class="gallery-box">
+
+<img
+src="SA%20Sigma%20Lubricant.png"
+alt="SA Sigma Lubricant Product Photo">
+
+<h3>SA Sigma Lubricant</h3>
+
+</div>
+
+
+<!-- PHOTO 2 -->
+
+<div class="gallery-box">
+
+<img
+src="SA%20Sigma%20Lubricant%20Catlog.png"
+alt="SA Sigma Lubricant Catalog">
+
+<h3>SA Sigma Lubricant Catalog</h3>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- PRODUCTS -->
 
 <section class="section">
 
@@ -308,10 +422,7 @@ href="tel:+918521212177">
 
 <div class="product">
 
-<img src="product.jpg"
-alt="SA Sigma Lubricant 900ml">
-
-<h3>SA Sigma Lubricant – 900ml</h3>
+<h3>SA Sigma Lubricant 900ml</h3>
 
 <p>
 Quality engine oil for everyday bike and scooter use.
@@ -319,29 +430,31 @@ Quality engine oil for everyday bike and scooter use.
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/918521212177?text=Hello%2C%20I%20want%20SA%20Sigma%20Lubricant%20900ml."
 target="_blank">
-WhatsApp
+
+💬 WhatsApp
+
 </a>
 
-<a class="btn call"
+<a
+class="btn call"
 href="tel:+918521212177">
-Call
+
+📞 Call
+
 </a>
 
 </div>
 
 </div>
-
 
 
 <div class="product">
 
-<img src="SA%20Sigma%20Lubricant.png"
-alt="SA Sigma Lubricant 1 Litre">
-
-<h3>SA Sigma Lubricant – 1 Litre</h3>
+<h3>SA Sigma Lubricant 1 Litre</h3>
 
 <p>
 Reliable lubrication and smooth performance for two-wheelers.
@@ -349,36 +462,41 @@ Reliable lubrication and smooth performance for two-wheelers.
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/918521212177?text=Hello%2C%20I%20want%20SA%20Sigma%20Lubricant%201%20Litre."
 target="_blank">
-WhatsApp
+
+💬 WhatsApp
+
 </a>
 
-<a class="btn call"
+<a
+class="btn call"
 href="tel:+918521212177">
-Call
+
+📞 Call
+
 </a>
 
 </div>
 
 </div>
-
 
 </div>
 
 </section>
 
 
+<!-- CONTACT -->
+
 <section class="section">
 
 <h2>Contact SA Sigma Lubricant</h2>
 
-<div class="card">
+<div class="contact">
 
-<p><strong>For Product & Distributor Enquiry</strong></p>
-
-<br>
+<p><strong>Product & Distributor Enquiry</strong></p>
 
 <p>📞 +91 85212 12177</p>
 
@@ -386,15 +504,21 @@ Call
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/918521212177"
 target="_blank">
+
 💬 Chat on WhatsApp
+
 </a>
 
-<a class="btn call"
+<a
+class="btn call"
 href="tel:+918521212177">
+
 📞 Call +91 85212 12177
+
 </a>
 
 </div>
@@ -403,6 +527,8 @@ href="tel:+918521212177">
 
 </section>
 
+
+<!-- FOOTER -->
 
 <footer>
 
@@ -420,5 +546,6 @@ Premium Engine Oil for Two-Wheeler Vehicles
 
 </footer>
 
+
 </body>
-</html>
+    </html>
