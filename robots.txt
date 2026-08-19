@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sigmalubricant-design.github.io/SA-Sigma-Lubricant/sitemap.xml
